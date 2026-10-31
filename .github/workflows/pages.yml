@@ -23,7 +23,7 @@ jobs:
           node-version: 22
       - run: npm test
       - uses: actions/configure-pages@v5
-      - run: mkdir public && cp index.html style.css app.js bank.js rules.js icon.svg public/
+      - run: mkdir public && cp index.html style.css app.js bank.js rules.js icon.svg optilab-results.js public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
